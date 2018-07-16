@@ -1,0 +1,78 @@
+/*.tt-dropdown-menu {
+    right: -20% !important;
+    margin-top: 0 !important;
+position: static!important;
+}*/
+/*
+#zone2 .block.list-articles:last-child {
+	float: left;
+    padding: 0 12px 0 12px;
+    width: initial;
+	border:0;
+}
+#zone2 .block.list-articles:last-child .block-title{
+	font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: #f4086a;
+    text-transform: uppercase;
+    text-align: center;
+	border-bottom: 0;}
+	
+#zone2 .block.list-articles:last-child .inside{
+	width:100%;}
+#zone2 .block.list-articles:last-child .la-item{
+	display: inline-block;
+	}
+#zone2 .block.list-articles:last-child .la-item:nth-child(even), #zone2 .block.list-articles:last-child .la-item + .la-item {
+    padding: 5px;
+    width: 31%;
+    min-height: 400px;
+    margin: 5px;}
+#zone2 .block.list-articles:last-child .block-small i.icon:before, #zone2 .block.list-articles:last-child .la-item-img{display:none !important}
+#zone2 .block.list-articles:last-child .la-item-title {
+    font-size: 23px;
+ }
+*/
+
+
+
+/* Habillage articles connexes */
+
+#zone2 .block.list-articles.connexe {
+	float: left;
+    padding: 0 12px 0 12px;
+    width: initial;
+	border:0;
+}
+#zone2 .block.list-articles.connexe .block-title{
+	font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: #f4086a;
+    text-transform: uppercase;
+    text-align: center;
+	border-bottom: 0;}
+	
+#zone2 .block.list-articles.connexe .inside{
+	width:100%;}
+#zone2 .block.list-articles.connexe .la-item{
+	display: inline-block;
+	}
+#zone2 .block.list-articles.connexe .la-item:nth-child(even), #zone2 .block.list-articles.connexe .la-item + .la-item {
+    padding: 5px;
+    width: 31%;
+    min-height: 400px;
+    margin: 5px;}
+#zone2 .block.list-articles.connexe .block-small i.icon:before, #zone2 .block.list-articles.connexe .la-item-img{display:none !important}
+#zone2 .block.list-articles.connexe .la-item-title {
+    font-size: 22px;
+ }
+
+
+/*Pictos parcours envoyés par J2C */
+.mod-catal .catal-ex-item-cat-link img, .themed_trail_link img {
+    width:40px;
+}
+
+
