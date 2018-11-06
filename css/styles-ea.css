@@ -2982,7 +2982,7 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
 	Accoutn Widget
 \* ------------------------------------------------------------ */
 
-#cxpmClientAccountWidget { position: absolute; top: 1px; right: 221px; }
+#cxpmClientAccountWidget { position: absolute!important; top: 1px; right: 221px; }
 #cxpmClientAccountWidget:before { content: ''; position: absolute; width: 1px; height: 8px; top: 50%; right: -32px; margin-top: -2px; background: #d8dee2; }
 
 #cxpmClientAccountWidget .widget-text { padding-top: 0 !important; }
