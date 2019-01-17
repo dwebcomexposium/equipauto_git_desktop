@@ -1278,7 +1278,7 @@ html[lang='en'] .main-navigation + .main-navigation .mn-menu:before {  content: 
 	Social
 \* ------------------------------------------------------------ */
 
-.block-double { min-height: 503px; position: relative; margin-bottom: 155px; }
+.block-double { min-height: 503px; position: relative; margin-bottom: 110px; }
 .block-double:before { content: ''; width: 100vw; min-width: 1280px; height: 503px; display: block; position: absolute; top: 0; left: 50%; z-index: 1; background: url(images/bg4.png) repeat-x 50% 0; 
 	-webkit-transform: translateX(-50%); 
 	    -ms-transform: translateX(-50%); 
@@ -1299,7 +1299,11 @@ html[lang='en'] .main-navigation + .main-navigation .mn-menu:before {  content: 
 .block-double .feed-body { width: 720px; position: absolute; top: 0; left: 100%; padding: 40px 48px 0; overflow: hidden; background-color: #fff; border-radius: 20px; box-shadow: 0 0 24px rgba(0,0,0,.2); }
 .block-double .feed-body .block { margin: 0; }
 .block-double .feed-body:before { content: ''; height: 40px; display: block; position: absolute; top: 0; right: 0; left: 0; background-color: #fff; border-radius: 20px 20px 0 0; }
-.block-double .feed-body iframe { height: 559px !important; margin: -57px 0 -53px !important; }
+/*.block-double .feed-body iframe { height: 559px !important; margin: -57px 0 -53px !important; }*/
+
+.block-double .feed-body iframe { border-radius: 17px; margin-bottom: 30px;
+}
+
 
 .block-double .block-inner { padding-bottom: 38px; 
 	display: -webkit-box;
