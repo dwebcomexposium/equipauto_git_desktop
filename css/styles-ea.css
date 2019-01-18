@@ -1113,6 +1113,11 @@ html[lang='en'] .main-navigation + .main-navigation .mn-menu:before {  content: 
 }
 .sector-icon:after { content: counter(sector); counter-increment: sector; font-size: 15px; line-height: 19px; color: #002b4c; font-weight: 400; text-align: center; width: 23px; height: 21px; display: block; padding-top: 2px; border: 1px solid #d9dfe4; margin: auto; border-radius: 50%; position: absolute; bottom: 19px; left: 50%; margin-left: -11px; }
 
+
+
+
+
+
 .sector-icon i { margin-right: auto; margin-left: auto; 
 	-webkit-background-size: 100% 100%; 
 	        background-size: 100% 100%; 
@@ -1221,6 +1226,21 @@ html[lang='en'] .main-navigation + .main-navigation .mn-menu:before {  content: 
 	background: -webkit-linear-gradient(left, rgba(54,139,204,1) 0%,rgba(3,178,224,1) 100%);
 	background: linear-gradient(to right, rgba(54,139,204,1) 0%,rgba(3,178,224,1) 100%);
 }
+
+
+.sector:nth-child(7) .sector-icon:before { content: "Focus 2019";  font-size: 10px; text-transform: uppercase; letter-spacing: 1px; 	line-height: 19px; color: #fff; font-weight: 400; text-align: center;  display: block; padding: 2px 12px; margin: auto; position: absolute; top: -5px; border-radius: 12px;
+	background: rgb(54,139,204);
+background: -moz-linear-gradient(left, rgba(54,139,204,1) 0%, rgba(3,178,224,1) 100%);
+background: -webkit-linear-gradient(left, rgba(54,139,204,1) 0%,rgba(3,178,224,1) 100%);
+background: linear-gradient(to right, rgba(54,139,204,1) 0%,rgba(3,178,224,1) 100%);
+transition: all 1s ease-in-out 0s;
+}
+
+html[lang='en'] .sector:nth-child(7) .sector-icon:before { content: "2019 focus"; }
+
+
+.sector.hover:nth-child(7) .sector-icon:before {  top: -10px; background: #002b4c;}
+
 
 .sector { width: calc((100% - 540px) / 6); }
 
