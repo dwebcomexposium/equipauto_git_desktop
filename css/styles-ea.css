@@ -3299,3 +3299,7 @@ align-items: center;
 
 .header-ad a {display: block; padding: 10px 0 30px;}
 
+.section-program {
+    display: none;
+}
+
