@@ -488,7 +488,6 @@ html[lang='en'] .header-slogan span { letter-spacing: 0.36em; }
 
 html[lang='en'] .header-entry a small  { margin-left:17px }
 html[lang='en'] .header-entry a strong { font-size: 11px; letter-spacing: 0.17em; }
-html[lang='en'] .header-entry a:before { top: 27px; left: 10px;  }
 
 /*.header-reserve { min-width: 236px; position: absolute; top: 83px; left: 50%; border-width: 3px 0; border-style: solid; border-color: rgba(0, 158, 234, .15); margin-left: 245px; 
 	
