@@ -1,3 +1,8 @@
+/* @override 
+	https://equipauto.comexposium-admin.com/theme/equipauto_desktop/css/styles-ea.css
+	https://www.equipauto.com/theme/equipauto_desktop/css/styles-ea.css */
+	
+/*	<link rel="stylesheet" type="text/css" href="/theme/equipauto_desktop/css/styles-ea.css">*/
 
 /* ------------------------------------------------------------ *\
 	Maven Font Family
@@ -488,6 +493,7 @@ html[lang='en'] .header-slogan span { letter-spacing: 0.36em; }
 
 html[lang='en'] .header-entry a small  { margin-left:17px }
 html[lang='en'] .header-entry a strong { font-size: 11px; letter-spacing: 0.17em; }
+/*html[lang='en'] .header-entry a:before { top: 27px; left: 10px;  }*/
 
 /*.header-reserve { min-width: 236px; position: absolute; top: 83px; left: 50%; border-width: 3px 0; border-style: solid; border-color: rgba(0, 158, 234, .15); margin-left: 245px; 
 	
@@ -1898,14 +1904,14 @@ html[lang='en'] .block-double .feed-body { padding: 0 48px 0;  }
 .article-wrapper:before,
 .article-wrapper:after, .error404 .layout-2-col:before, #zone2 .partner-list:before, .layout-2-col .sitemap:before, .layout-2-col .search-result:before,  #zone2 .survey-vote:before, .error404 .layout-2-col:after, #zone2 .partner-list:after, .layout-2-col .sitemap:after, .layout-2-col .search-result:after,  #zone2 .survey-vote:after { content: ''; position: absolute; width: 2px; height: 348px; top: 31px; background: url(images/dash.png) no-repeat 0 bottom; }
 
-.article-wrapper h2, a.sm-item-title, .search-result h2 { font-family: 'Maven Pro', sans-serif; font-size: 27px; line-height: 1.11; font-weight: 700; letter-spacing: 0.15em; color: #0da0e6; text-transform: uppercase; text-align: center; padding: 0; margin: 0 0 20px; border: 0; clear: both; position: relative; z-index: 3; }
-.article-wrapper h3 { font-size: 30px; font-weight: 400; letter-spacing: 0.07em; color: #152848; position: relative; margin: 0 0 30px; overflow: hidden; }
+.article-wrapper h2, a.sm-item-title, .search-result h2, .list-articles .intro h2 { font-family: 'Maven Pro', sans-serif; font-size: 27px; line-height: 1.11; font-weight: 700; letter-spacing: 0.15em; color: #0da0e6; text-transform: uppercase; text-align: center; padding: 0; margin: 0 0 20px; border: 0; clear: both; position: relative; z-index: 3; }
+.article-wrapper h3, .list-articles .intro h3 { font-size: 30px; font-weight: 400; letter-spacing: 0.07em; color: #152848; position: relative; margin: 0 0 30px; overflow: hidden; }
 .article-wrapper h3:after { content: ''; position: absolute; width: 100%; height: 1px; top: 50%; background: #002b4c; }
 .article-wrapper h3 span { position: relative; display: inline-block; padding-right: 36px; background: #fff; z-index: 2; }
-.article-wrapper h4 { font-size: 20px; font-weight: 900; letter-spacing: 0.1em; color: #f4086a; text-transform: uppercase; text-align: center; }
-.article-wrapper ul { padding: 0; margin: 0 0 50px; list-style-type: none; }
-.article-wrapper ul li { position: relative; padding-left: 25px; }
-.article-wrapper ul li:before { content: ''; position: absolute; width: 9px; height: 9px; top: 7px; left: 0; margin: 0; border-radius: 50%; background: #f40969; 
+.article-wrapper h4, .list-articles .intro h4 { font-size: 20px; font-weight: 900; letter-spacing: 0.1em; color: #f4086a; text-transform: uppercase; text-align: center; }
+.article-wrapper ul, .list-articles .intro ul { padding: 0; margin: 0 0 50px; list-style-type: none; }
+.article-wrapper ul li, .list-articles .intro ul li { position: relative; padding-left: 25px; }
+.article-wrapper ul li:before, .list-articles .intro ul li:before { content: ''; position: absolute; width: 9px; height: 9px; top: 7px; left: 0; margin: 0; border-radius: 50%; background: #f40969; 
 	-webkit-transform: rotate(0deg); 
 	    -ms-transform: rotate(0deg); 
 	     -o-transform: rotate(0deg); 
@@ -1915,10 +1921,10 @@ html[lang='en'] .block-double .feed-body { padding: 0 48px 0;  }
 .article-wrapper ul ul li:before { width: 6px; height: 1px; top: 10px; background: #152848; }
 .article-wrapper ul li + li { margin-top: 9px; }
 .article-wrapper ul ul li + li { margin-top: 2px; }
-.article-wrapper a { color: inherit; }
-.article-wrapper blockquote { position: relative; padding: 0; margin: 134px 0; border: 0; font-size: 20px; line-height: 1.25; letter-spacing: 0.15em; text-transform: uppercase; text-align: center; background: none; }
-.article-wrapper p { position: relative; margin: 0 0 25px; z-index: 2; }
-.article-wrapper blockquote p { position: relative; padding: 0; margin: 0; border: 0; z-index: 3; }
+.article-wrapper a, .list-articles .intro a { color: inherit; }
+.article-wrapper blockquote, .list-articles .intro blockquote { position: relative; padding: 0; margin: 134px 0; border: 0; font-size: 20px; line-height: 1.25; letter-spacing: 0.15em; text-transform: uppercase; text-align: center; background: none; }
+.article-wrapper p, .list-articles .intro p { position: relative; margin: 0 0 25px; z-index: 2; }
+.article-wrapper blockquote p, .list-articles .intro blockquote p { position: relative; padding: 0; margin: 0; border: 0; z-index: 3; }
 
 .article-content-blockquote-c { min-height: 145px; }
 
@@ -1960,39 +1966,39 @@ html[lang='en'] .block-double .feed-body { padding: 0 48px 0;  }
 		-ms-flex-flow: column-reverse nowrap;
 		    flex-flow: column-reverse nowrap;
 }
-.article-wrapper .style4 { margin-bottom: 54px; }
-.article-wrapper .lien4 { position: relative; padding-left: 73px; font-family: 'Maven Pro', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; color: #152848; text-decoration: none; text-transform: uppercase; 
+.style4 { margin-bottom: 54px; }
+.lien4 { position: relative; padding-left: 73px; font-family: 'Maven Pro', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; color: #152848; text-decoration: none; text-transform: uppercase; 
 	-webkit-transition: opacity .3s; 
 	     -o-transition: opacity .3s; 
 	        transition: opacity .3s; 
 }
-.article-wrapper .lien4:hover { opacity: .7; }
-.article-wrapper .lien4:before { content: ''; position: absolute; width: 58px; height: 35px; top: 50%; left: 0; border-radius: 35px; margin-top: -18px; 
+.lien4:hover { opacity: .7; }
+.lien4:before { content: ''; position: absolute; width: 58px; height: 35px; top: 50%; left: 0; border-radius: 35px; margin-top: -18px; 
 	background: rgb(0,158,234);
 	background: -moz-linear-gradient(left, rgba(0,158,234,1) 0%, rgba(69,194,238,1) 100%);
 	background: -webkit-linear-gradient(left, rgba(0,158,234,1) 0%,rgba(69,194,238,1) 100%);
 	background: linear-gradient(to right, rgba(0,158,234,1) 0%,rgba(69,194,238,1) 100%);
 }
-.article-wrapper .lien4:after { content: ''; position: absolute; width: 15px; height: 19px; top: -3px; left: 21px; background-image: url(images/ico-download.png); 
+.lien4:after { content: ''; position: absolute; width: 15px; height: 19px; top: -3px; left: 21px; background-image: url(images/ico-download.png); 
 	-webkit-background-size: 100% 100%; 
 	        background-size: 100% 100%; 
 }
 
-.article-wrapper .focus1 {}
+.focus1 {}
 .lien1 { font-weight: 500; color: #fff!important; text-decoration: none;  padding-bottom: 36px; }
 .lien1 + .lien1 { margin-left: 15px; }
 
-.article-wrapper .focus2 {  }
+.focus2 {  }
 .lien2 { border: 1px solid #ccd5db; color: #002b4c; text-decoration: none; background: none; margin-bottom: 36px;
 	transition: all .3s ease;
 }
-.article-wrapper .lien2:before { background-image: url(images/ico-arrow-right-darkblue.png); 
+.lien2:before { background-image: url(images/ico-arrow-right-darkblue.png); 
 	-webkit-transition: background-image .3s; 
 	     -o-transition: background-image .3s; 
 	        transition: background-image .3s; 
 }
-.article-wrapper .lien2:hover { color: #fff; padding: 14px 28px 12px 50px; margin: -4px; border-color: #002b4c; background-color: #002b4c; border-radius: 20px; }
-.article-wrapper .lien2:hover:before { background-image: url(images/ico-arrow-right-white.png); }
+.lien2:hover { color: #fff; padding: 14px 28px 12px 50px; margin: -4px; border-color: #002b4c; background-color: #002b4c; border-radius: 20px; }
+.lien2:hover:before { background-image: url(images/ico-arrow-right-white.png); }
 
 .article-content hr { clear: both; background: transparent; }
 
@@ -3297,8 +3303,4 @@ align-items: center;
 \* ------------------------------------------------------------ */
 
 .header-ad a {display: block; padding: 10px 0 30px;}
-
-.section-program {
-    display: none;
-}
 
