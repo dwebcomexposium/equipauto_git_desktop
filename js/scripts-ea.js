@@ -122,9 +122,9 @@
 				$newsletterForm.toggleClass('is-visible');
 			});
 
-		if ( $('.block-page.list-articles:not(.actus) .gla-item').length ) {
-			$('.block-page.list-articles:not(.actus) .gla-item img').wrap('<div class="image"/>');
-		}
+//		if ( $('.block-page.list-articles:not(.actus) .gla-item').length ) {
+//			$('.block-page.list-articles:not(.actus) .gla-item img').wrap('<div class="image"/>');
+//		}
 		
 		if ( $('.newsletter-form').length ) {
 			$newsletterField.attr('placeholder', $newsletterLabel[0].innerHTML.replace(/\<(.*)/g, ''));
