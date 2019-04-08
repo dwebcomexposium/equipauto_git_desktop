@@ -2285,7 +2285,7 @@ html[lang='en'] .block-double .feed-body { padding: 0 48px 0;  }
 #zone2 .block.list-articles .grid-la-list { padding-top: 20px; }
 #zone2 .block.list-articles .gla-item-content { position: relative; min-height: 0; padding-top: 16px; background: #fff; z-index: 5; }
 #zone2 .block.list-articles .gla-item-desc { display: none; }
-#zone2 .block.list-articles .gla-item-title { font-size: 23px; line-height: 1; font-weight: 900; letter-spacing: -0.03em; color: #002b4c; text-transform: uppercase; }
+#zone2 .block.list-articles .gla-item-title { font-size: 23px; line-height: 1; font-weight: 900; letter-spacing: -0.03em; color: #002b4c; text-transform: uppercase; padding-top: 15px; }
 #zone2 .block.list-articles .gla-item-author { display: none; }
 #zone2 .block.list-articles .gla-btn-read-more { position: absolute; top: 0; left: 0; bottom: 0; right: 0; padding: 0; margin: 0; border: 0; background: none; z-index: 4; font-size: 0; line-height: 0; text-indent: -4004px; border: 0; outline: 0; }
 
@@ -2294,12 +2294,12 @@ html[lang='en'] .block-double .feed-body { padding: 0 48px 0;  }
 #zone2 .block.list-articles .gla-item-tag { display: none; }
 #zone2 .block.list-articles .gla-item:hover a { text-decoration: none; }
 #zone2 .block.list-articles .gla-item:hover img {
-	-webkit-transform: scale(1.1); 
-	    -ms-transform: scale(1.1); 
-	     -o-transform: scale(1.1); 
-	        transform: scale(1.1); 
+	-webkit-transform: scale(1.02); 
+	    -ms-transform: scale(1.02); 
+	     -o-transform: scale(1.02); 
+	        transform: scale(1.02); 
 }
-#zone2 .block.list-articles .gla-item .image { position: relative; z-index: 2; border: 17px solid #fff; border-radius: 33px; overflow: hidden; outline: 0; z-index: 6; 
+/*#zone2 .block.list-articles .gla-item .image { position: relative; z-index: 2; border: 17px solid #fff; border-radius: 33px; overflow: hidden; outline: 0; z-index: 6; 
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
 			box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
 
@@ -2308,7 +2308,20 @@ html[lang='en'] .block-double .feed-body { padding: 0 48px 0;  }
 	-webkit-transition: transform .3s; 
 	     -o-transition: transform .3s; 
 	        transition: transform .3s; 
+}*/
+
+
+#zone2 .block.list-articles .gla-item .gla-item-img { position: relative; z-index: 2; border: 17px solid #fff; border-radius: 33px; overflow: hidden; outline: 0; z-index: 6; 
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+			box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+
 }
+#zone2 .block.list-articles .gla-item img {
+	-webkit-transition: transform .3s; 
+	     -o-transition: transform .3s; 
+	        transition: transform .3s; 
+}
+
 #zone2 .block.list-articles .gla-item a { text-decoration: none; }
 
 #zone2 .block.list-articles .gla-item a:hover .gla-item-title,
