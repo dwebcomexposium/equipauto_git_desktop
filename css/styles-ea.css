@@ -2452,7 +2452,7 @@ ul.content-list-bullet ul li:after { width: 6px; height: 1px; top: 10px; border-
 .error-page figure.center img {display: block; margin: 0 auto; padding: 50px 0; }
 
 .error-page figcaption {display: none; }
-
+.error404 #zone1 {display: none;}
 
 
 /* ------------------------------------------------------------ *\
