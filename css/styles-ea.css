@@ -3352,7 +3352,7 @@ align-items: center;
         transform: none!; }
         
 .page-events .mod-catal h2 {padding: 20px 0 10px; border-bottom:0; font-weight: 300; text-transform: uppercase; letter-spacing: 2px; text-align: left; font-size: 20px; }
-.page-events .catal-ed-main-session {float: left; padding-left: 50px; width: 640px; }
+.page-events .catal-ed-main-session {float: left; padding-left: 0; width: 640px; }
 .page-events .catal-ed-main-address {margin: 0; padding-top: 7px!important; }
 .persons-event {font-weight: 700; color:#e71f61 ; }
 .persons-event:before {display: none!important; } 
@@ -3397,12 +3397,17 @@ align-items: center;
             
             
             
-.page-events img.catal-ed-main-media  {margin: 50px 0 0!important; }
-.event-view-full h1 {text-align: left }
+.page-events img.catal-ed-main-media  {margin: 50px 20px 0!important; }
 .page-events button.js-mySelection {margin-left:20px!important; }
-.page-events .catal-ex-item-buttons {margin-right:0; }
-
+.page-events .catal-ex-item-buttons {  }
+.page-events .catal-ex-item-buttons button {margin-top: 0!important; }
 .page-events .catal-ex-item-buttons button:first-child {background: none!important; }
+
+
+.page-events div.block.block-page.edito.mod-catal .inside {display: flex; flex-direction: column-reverse; justify-content: center; }
+.page-events div.block.block-page.edito.mod-catal .inside div {text-align: center;  }
+.event-view-full h1 {text-align: center!important;  }
+
 
 
 
