@@ -3329,7 +3329,7 @@ align-items: center;
     Event calendar
 \* ------------------------------------------------------------ */
 
-.page-events { font-family: 'Source Sans Pro', sans-serif; color: #152848; font-size: 14px; }
+.page-events { font-family: 'Maven Pro', sans-serif; color: #152848; font-size: 14px; }
 
 /*.page-events .esf-advanced-search { margin-top: 20px; }*/
 
@@ -3408,5 +3408,9 @@ align-items: center;
 .page-events div.block.block-page.edito.mod-catal .inside {display: flex; flex-direction: column-reverse; justify-content: center; }
 .page-events div.block.block-page.edito.mod-catal .inside div {text-align: center;  }
 .event-view-full h1 {text-align: center!important;  }
+
+
+
+
 
 
