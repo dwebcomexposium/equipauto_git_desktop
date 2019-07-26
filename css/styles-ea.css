@@ -3402,7 +3402,6 @@ align-items: center;
 .page-events button.js-mySelection {margin-left:20px!important; }
 .page-events .catal-ex-item-buttons {  }
 .page-events .catal-ex-item-buttons button {margin-top: 0!important; }
-.page-events .catal-ex-item-buttons button:first-child {background: none!important; }
 
 
 .page-events div.block.block-page.edito.mod-catal .inside {display: flex; flex-direction: column-reverse; justify-content: center; }
