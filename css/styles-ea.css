@@ -1072,7 +1072,7 @@ html[lang='en'] .main-navigation + .main-navigation .mn-menu:before {  content: 
 .icon-sector6-active { width: 48px; height: 40px; }
 
 .icon-sector7,
-.icon-sector7-active { width: 79px; height: 26x; }
+.icon-sector7-active { width: 79px; height: 26px; }
 
 .icon-sector1 { background-image: url(images/ico-theme/ea-parcours-1.png); }
 .icon-sector1-active { background-image: url(images/ico-theme/ea-parcours-1-active.png); }
@@ -3399,4 +3399,3 @@ align-items: center;
 .page-events div.block.block-page.edito.mod-catal .inside {display: flex; flex-direction: column-reverse; justify-content: center; }
 .page-events div.block.block-page.edito.mod-catal .inside div {text-align: center;  }
 .event-view-full h1 {text-align: center!important;  }
-
