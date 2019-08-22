@@ -1217,22 +1217,21 @@ html[lang='en'] .main-navigation + .main-navigation .mn-menu:before {  content: 
 	background: linear-gradient(to right, rgb(130, 190, 113) 1%, rgb(62, 187, 151) 100%) rgb(130, 190, 113);
 }
 
-.sector:nth-child(7) .sector-content { background-color: rgba(54,139,204,.2); }
+.sector:nth-child(7) .sector-content { background-color: rgba(159, 132, 69,.2); }
 .sector:nth-child(7) .sector-content-inner {
-	background: rgb(54,139,204);
-	background: -moz-linear-gradient(left, rgba(54,139,204,1) 0%, rgba(3,178,224,1) 100%);
-	background: -webkit-linear-gradient(left, rgba(54,139,204,1) 0%,rgba(3,178,224,1) 100%);
-	background: linear-gradient(to right, rgba(54,139,204,1) 0%,rgba(3,178,224,1) 100%);
+	background: -webkit-linear-gradient(left, rgb(159, 132, 69) 0%, rgb(226, 203, 154) 100%) rgb(54,139,204);
+	background: -moz-linear-gradient(left, rgb(159, 132, 69) 0%, rgb(226, 203, 154) 100%) rgb(54,139,204);
+	background: linear-gradient(to right, rgb(159, 132, 69) 0%, rgb(226, 203, 154) 100%) rgb(54,139,204);
 }
 
 
-.sector:nth-child(7) .sector-icon:before { content: "Focus 2019";  font-size: 10px; text-transform: uppercase; letter-spacing: 1px; 	line-height: 19px; color: #fff; font-weight: 400; text-align: center;  display: block; padding: 2px 12px; margin: auto; position: absolute; top: -5px; border-radius: 12px;
+/*.sector:nth-child(7) .sector-icon:before { content: "Focus 2019";  font-size: 10px; text-transform: uppercase; letter-spacing: 1px; 	line-height: 19px; color: #fff; font-weight: 400; text-align: center;  display: block; padding: 2px 12px; margin: auto; position: absolute; top: -5px; border-radius: 12px;
 	background: rgb(54,139,204);
 background: -moz-linear-gradient(left, rgba(54,139,204,1) 0%, rgba(3,178,224,1) 100%);
 background: -webkit-linear-gradient(left, rgba(54,139,204,1) 0%,rgba(3,178,224,1) 100%);
 background: linear-gradient(to right, rgba(54,139,204,1) 0%,rgba(3,178,224,1) 100%);
 transition: all 1s ease-in-out 0s;
-}
+}*/
 
 html[lang='en'] .sector:nth-child(7) .sector-icon:before { content: "2019 focus"; }
 
@@ -3400,3 +3399,4 @@ align-items: center;
 .page-events div.block.block-page.edito.mod-catal .inside {display: flex; flex-direction: column-reverse; justify-content: center; }
 .page-events div.block.block-page.edito.mod-catal .inside div {text-align: center;  }
 .event-view-full h1 {text-align: center!important;  }
+
