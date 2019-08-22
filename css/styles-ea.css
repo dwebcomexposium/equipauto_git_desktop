@@ -1,10 +1,3 @@
-/*debut*/
-/* @override 
-	https://equipauto.comexposium-admin.com/theme/equipauto_desktop/css/styles-ea.css
-	https://www.equipauto.com/theme/equipauto_desktop/css/styles-ea.css */
-	
-/*	<link rel="stylesheet" type="text/css" href="/theme/equipauto_desktop/css/styles-ea.css">*/
-
 /* ------------------------------------------------------------ *\
 	Maven Font Family
 \* ------------------------------------------------------------ */
@@ -1061,40 +1054,40 @@ html[lang='en'] .main-navigation + .main-navigation .mn-menu:before {  content: 
 .block-sectors-links .block-head p { font-size: 14px; line-height: 20px; color: #002b4c; font-weight: 400; letter-spacing: 0.05em; margin: 0; }
 
 .icon-sector1,
-.icon-sector1-active { width: 42px; height: 50px;  margin-left: 70px!important; }
+.icon-sector1-active { width: 65px; height: 43px;  margin-left: 70px!important; }
 
 .icon-sector2,
-.icon-sector2-active { width: 50px; height: 45px; }
+.icon-sector2-active { width: 61px; height: 45px; }
 
 .icon-sector3,
-.icon-sector3-active { width: 53px; height: 44px; }
+.icon-sector3-active { width: 46px; height: 48px; }
 
 .icon-sector4,
-.icon-sector4-active { width: 44px; height: 47px; }
+.icon-sector4-active { width: 47px; height: 46px; }
 
 .icon-sector5,
-.icon-sector5-active { width: 49px; height: 38px; }
+.icon-sector5-active { width: 70px; height: 46px; }
 
 .icon-sector6,
-.icon-sector6-active { width: 55px; height: 38px; }
+.icon-sector6-active { width: 48px; height: 40px; }
 
 .icon-sector7,
-.icon-sector7-active { width: 46px; height: 46px; }
+.icon-sector7-active { width: 79px; height: 26x; }
 
-.icon-sector1 { background-image: url(images/ico-sectors/ico-sector-1.png); }
-.icon-sector1-active { background-image: url(images/ico-sectors/ico-sector-1-active.png); }
-.icon-sector2 { background-image: url(images/ico-sectors/ico-sector-2.png); }
-.icon-sector2-active { background-image: url(images/ico-sectors/ico-sector-2-active.png); }
-.icon-sector3 { background-image: url(images/ico-sectors/ico-sector-3.png); }
-.icon-sector3-active { background-image: url(images/ico-sectors/ico-sector-3-active.png); }
-.icon-sector4 { background-image: url(images/ico-sectors/ico-sector-4.png); }
-.icon-sector4-active { background-image: url(images/ico-sectors/ico-sector-4-active.png); }
-.icon-sector5 { background-image: url(images/ico-sectors/ico-sector-5.png); }
-.icon-sector5-active { background-image: url(images/ico-sectors/ico-sector-5-active.png); }
-.icon-sector6 { background-image: url(images/ico-sectors/ico-sector-6.png); }
-.icon-sector6-active { background-image: url(images/ico-sectors/ico-sector-6-active.png); }
-.icon-sector7 { background-image: url(images/ico-sectors/ico-sector-7.png); }
-.icon-sector7-active { background-image: url(images/ico-sectors/ico-sector-7-active.png); }
+.icon-sector1 { background-image: url(images/ico-theme/ea-parcours-1.png); }
+.icon-sector1-active { background-image: url(images/ico-theme/ea-parcours-1-active.png); }
+.icon-sector2 { background-image: url(images/ico-theme/ea-parcours-2.png); }
+.icon-sector2-active { background-image: url(images/ico-theme/ea-parcours-2-active.png); }
+.icon-sector3 { background-image: url(images/ico-theme/ea-parcours-3.png); }
+.icon-sector3-active { background-image: url(images/ico-theme/ea-parcours-3-active.png); }
+.icon-sector4 { background-image: url(images/ico-theme/ea-parcours-4.png); }
+.icon-sector4-active { background-image: url(images/ico-theme/ea-parcours-4-active.png); }
+.icon-sector5 { background-image: url(images/ico-theme/ea-parcours-5.png); }
+.icon-sector5-active { background-image: url(images/ico-theme/ea-parcours-5-active.png); }
+.icon-sector6 { background-image: url(images/ico-theme/ea-parcours-6.png); }
+.icon-sector6-active { background-image: url(images/ico-theme/ea-parcours-6-active.png); }
+.icon-sector7 { background-image: url(images/ico-theme/ea-parcours-7.png); }
+.icon-sector7-active { background-image: url(images/ico-theme/ea-parcours-7-active.png); }
 
 .sectors { font-size: 0; line-height: 0; white-space: nowrap; padding: 0; margin: 0; list-style: none outside none; counter-reset: sector; text-align: center; }
 .sectors:after { content: ''; line-height: 0; display: table; clear: both; }
@@ -1399,7 +1392,7 @@ html[lang='en'] .block-double .feed-body { padding: 0 48px 0;  }
 \* ------------------------------------------------------------ */
 
 #youmax,
-#youmax * { font-family: 'Source Sans Pro', sans-serif; background: #e4f5fc; }
+#youmax * { font-family: 'Maven Pro', sans-serif; background: #e4f5fc; }
 
 #youmax { display: block; position: relative; margin: 0 auto 29px; }
 #photo-detail-holder { display: none !important; }
@@ -3407,9 +3400,3 @@ align-items: center;
 .page-events div.block.block-page.edito.mod-catal .inside {display: flex; flex-direction: column-reverse; justify-content: center; }
 .page-events div.block.block-page.edito.mod-catal .inside div {text-align: center;  }
 .event-view-full h1 {text-align: center!important;  }
-
-
-
-
-
-
