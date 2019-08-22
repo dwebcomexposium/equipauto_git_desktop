@@ -1735,7 +1735,8 @@ html[lang='en'] .block-double .feed-body { padding: 0 48px 0;  }
 .participation-head p { font-size: 14px; line-height: 20px; color: #002b4c; font-weight: 400; letter-spacing: 0.05em; margin: 0; }
 
 .block.quicklinks.participation { font-size: 0; line-height: 0; text-align: center; padding-bottom: 80px; }
-.block.quicklinks.participation .ql-item { width: 370px; display: inline-block; vertical-align: top; }
+.block.quicklinks.participation .ql-item { width: 370px; display: inline-block; vertical-align: middle; margin-bottom: 50px; }
+
 
 .block.quicklinks.participation .btn-primary { font-size: 18px; line-height: 20px; text-transform: uppercase; color: #002b4c; letter-spacing: 0.1em; text-align: left; min-height: 79px; padding: 12px 20px 0 100px; background: none; border-radius: 0; }
 .block.quicklinks.participation .btn-primary:before { width: 79px; height: 79px; top: 0; left: 0; 
@@ -1750,6 +1751,9 @@ html[lang='en'] .block-double .feed-body { padding: 0 48px 0;  }
 .block.quicklinks.participation .ql-item:first-child .btn-primary:before { background-image: url(images/ico-loupe.png); }
 .block.quicklinks.participation .ql-item:nth-child(2) .btn-primary:before { background-image: url(images/ico-volume.png); }
 .block.quicklinks.participation .ql-item:nth-child(3) .btn-primary:before { background-image: url(images/ico-news.png); }
+.block.quicklinks.participation .ql-item:nth-child(4) .btn-primary:before { background-image: url(images/ico-community.png); }
+.block.quicklinks.participation .ql-item:nth-child(5) .btn-primary:before { background-image: url(images/ico-sponsor.png); }
+
 
 .block.quicklinks.participation .btn-primary:hover { background: none; }
 .block.quicklinks.participation .btn-primary:hover:before {
