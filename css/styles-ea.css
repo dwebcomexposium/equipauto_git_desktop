@@ -508,7 +508,7 @@ html[lang='en'] .header-entry a strong { font-size: 11px; letter-spacing: 0.17em
 }
 
 .header-reserve a { font-size: 18px; line-height: 20px; color: #fff; font-weight: 900; letter-spacing: 0.03em; text-transform: uppercase; text-decoration: none; display: block; position: relative; padding: 24px 0 24px 74px; }
-.header-reserve .ico-reserve { width: 35px; height: 30px; position: absolute; top: 26px; left: 19px; background-image: url(images/ico-badge.svg); 
+.header-reserve .ico-reserve { width: 35px; height: 35px; position: absolute; top: 23px; left: 19px; background-image: url(images/ico-click.svg); 
 
 /*	-webkit-transition: top .4s ease;
 			transition: top .4s ease;*/
