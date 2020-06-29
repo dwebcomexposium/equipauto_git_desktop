@@ -315,9 +315,9 @@
 					if ( $youtubePlaylist.length ) {					
 						// Init Youtube Videos Slider
 						$('#youmax').youmax({
-							apiKey: 'AIzaSyCNbIqgoVrq7IPkHr_NBMquEXAFu9zv474',
+							apiKey: 'AIzaSyC9-ccCSlXZk2tfJflKjIfxi8EuzDzPVqk',
 							vimeoAccessToken: '',
-							clientId: '438137961980-vlefbf8sgps4r5fqon9u92m93n0hc1pi.apps.googleusercontent.com',
+							clientId: '28499349757-od8saulfhctvu2ao84569p6hls66396c.apps.googleusercontent.com',
 							channel: '',
 							youtube_playlist_videos: [{
 								name: 'Videos',
