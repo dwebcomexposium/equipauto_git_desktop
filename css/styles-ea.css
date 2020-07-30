@@ -351,7 +351,7 @@ textarea,
 .header-logo p { padding: 0; border: 0; margin: 0 0 -13px;  }
 
 .header-logo a,
-.header-logo img { display: block; width: 317px; }
+.header-logo img { display: block; width: 400px; margin-top: 7px; }
 
 .header-logo-date { position: relative; padding: 6px 15px 4px; margin-top: -10px; overflow: hidden; background-color: #fff; border-radius: 15px; }
 .header-logo-date h4 { font-size: 19px; line-height: 21px; color: #002b4c; font-weight: 700; text-transform: uppercase; float: left; position: relative; padding-right: 34px; margin: 0; }
