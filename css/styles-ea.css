@@ -3322,3 +3322,5 @@ align-items: center;
 .header-ad a {display: block; padding: 10px 0 30px;}
 
 .mn-menu {margin: 0 auto; }
+
+.list-articles.block-page .slider-item {width: 1080px!important; }
