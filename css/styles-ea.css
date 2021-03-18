@@ -3324,3 +3324,9 @@ align-items: center;
 .mn-menu {margin: 0 auto; }
 
 .list-articles.block-page .slider-item {width: 1080px!important; }
+
+
+/*CTA 3 lignes*/
+.header-content { padding-top: 27px; }
+.header-reserve { top: 75px; }
+.header-reserve .ico-reserve { top: 35px;}
