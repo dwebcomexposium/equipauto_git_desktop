@@ -3330,3 +3330,35 @@ align-items: center;
 .header-content { padding-top: 27px; }
 .header-reserve { top: 75px; }
 .header-reserve .ico-reserve { top: 35px;}
+
+
+/* ------------------------------------------------------------ *\
+	LP Ontour
+\* ------------------------------------------------------------ */
+
+.lp-ontour .global-wrapper { position: relative; overflow: hidden; background: url(images/bg-ontour.jpg) repeat-x 50% 0;  }
+.lp-ontour .global-wrapper:before { display: none; }
+
+.lp-ontour .header-logo { position: absolute; top: 35px; left: 50%; 
+	
+	-webkit-transform: translateX(-50%); 
+			transform: translateX(-50%); 
+}
+.lp-ontour .header-logo p { padding: 0; border: 0; margin: 0 0 -13px;  }
+
+.lp-ontour .header-logo a,
+.lp-ontour .header-logo img { display: block; width: 500px; margin-top: 0px; }
+
+
+.lp-ontour .main-navigation:first-of-type:before { content: ''; width: 100vw; min-width: 1280px; opacity: .4; position: absolute; top: 0; bottom: 0; left: 50%; z-index: 1; background-color: #481C7B; 
+	-webkit-transform: translateX(-50%); 
+	    -ms-transform: translateX(-50%); 
+	     -o-transform: translateX(-50%); 
+	        transform: translateX(-50%); 
+
+	-webkit-transition: all .4s ease;
+			transition: all .4s ease;
+}
+
+
+.lp-ontour .main-navigation:first-of-type .mn-item-lvl-1:nth-of-type(4) > .mn-link { color: #481C7B; background-color: #FAE600; padding: 5px 10px; margin-top: 15px; font-weight: 900; }
