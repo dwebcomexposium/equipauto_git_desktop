@@ -3376,12 +3376,12 @@ align-items: center;
 }
 
 
-.main-navigation:first-of-type .mn-item-lvl-1:nth-of-type(4) > .mn-link { color: #481C7B; background-color: #FAE600; padding: 5px 10px; margin-top: 15px; font-weight: 900; }
+html[lang='fr'] .main-navigation:first-of-type .mn-item-lvl-1:nth-of-type(4) > .mn-link { color: #481C7B; background-color: #FAE600; padding: 5px 10px; margin-top: 15px; font-weight: 900; }
 
 
 .lp-ontour .is-stuck.site-banner .main-navigation:first-of-type:before { content: ''; width: 100vw; min-width: 1280px; opacity: .95; position: absolute; top: 0; bottom: 0; left: 50%; z-index: 1; background-color: #201258; }
 
-.is-stuck.site-banner .main-navigation:first-of-type .mn-item-lvl-1:nth-of-type(4) > .mn-link { padding: 5px 10px; margin-top: 15px; }
+html[lang='fr'] .is-stuck.site-banner .main-navigation:first-of-type .mn-item-lvl-1:nth-of-type(4) > .mn-link { padding: 5px 10px; margin-top: 15px; }
 
 
 
