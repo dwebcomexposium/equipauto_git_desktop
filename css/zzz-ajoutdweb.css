@@ -80,4 +80,9 @@ position: static!important;
     background-color: #FAE600;
 }
 
-
+.site-footer .block-logos .col {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 80px;
+    padding: 0 47px;
+}
