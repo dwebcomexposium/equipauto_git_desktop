@@ -86,3 +86,6 @@ position: static!important;
     min-height: 80px;
     padding: 0 47px;
 }
+.col.col-size4 {
+    left: 175px;
+}
