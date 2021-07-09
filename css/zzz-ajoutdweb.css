@@ -89,3 +89,7 @@ position: static!important;
 .col.col-size4 {
     left: 175px;
 }
+
+.lp-ontour div#zone4 {
+    padding-top: 20px;
+}
