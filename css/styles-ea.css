@@ -1503,7 +1503,7 @@ html[lang='en'] .block-double .feed-body { padding: 0 48px 0;  }
 
 .site-footer .block-logos { font-size: 0; line-height: 0; text-align: center; display: block; padding-bottom: 62px; }
 
-.site-footer .block-logos .col { display: inline-block; vertical-align: top; min-height: 80px; padding: 0 100px; }
+.site-footer .block-logos .col { display: inline-block; vertical-align: top; min-height: 80px; padding: 0 35px; }
 .site-footer .block-logos .col a { display: block; }
 .site-footer .block-logos .col a img { display: block; margin: auto; }
 
