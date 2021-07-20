@@ -93,3 +93,12 @@ position: static!important;
 .lp-ontour div#zone4 {
     padding-top: 20px;
 }
+
+.block block-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
