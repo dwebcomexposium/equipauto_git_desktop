@@ -3394,6 +3394,16 @@ html[lang='fr'] .is-stuck.site-banner .main-navigation:first-of-type .mn-item-lv
 			appearance: none;
 
 	-webkit-transition: all .4s ease;
-			transition: all .4s ease;
+	transition: all .4s ease;
 }
 
+
+.label:first-child  {margin-left: -45px; }
+.label .col-size4 {margin-left: 45px; }
+   
+.block-page.partner .main-title-with-link { text-align: center; padding-bottom: 0; border: 0; margin: 0; }
+.block-page.partner .main-title-with-link  h2 { font-size: 27px; line-height: 30px; color: #002b4c; font-weight: 900; letter-spacing: 0.15em; text-transform: uppercase; padding: 0 0 10px; border: 0; margin: 0; width: 100%; }
+
+.block-page.partner .partner-gallery  { text-align: center; }
+.block-page.partner .partner-gallery .pg-item-group { display: flex; flex-wrap: wrap; justify-content: center; justify-content: center; max-width: 950px; margin: 0 auto;
+padding-bottom: 80px; }
