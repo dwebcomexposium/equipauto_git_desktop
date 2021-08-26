@@ -3446,29 +3446,5 @@ padding-bottom: 80px; }
 }
 
 
-
-
-/*
-
-.site-footer .block-logos .col {
-    display: inline-block;
-    vertical-align: top;
-    min-height: 80px;
-    padding: 0 30px;
-}
-.col.col-size4 {
-    left: 175px;
-}
-
-.lp-ontour div#zone4 {
-    padding-top: 20px;
-}
-
-.block block-logos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-}*/
+.exposez .header-ctas {  position: absolute; top: 48px; left: 52%; margin-left: 320px; }
+.exposez .is-stuck .header-ctas {  top: 160px; left: 92%; margin-left: auto; margin-right: -25px; }
