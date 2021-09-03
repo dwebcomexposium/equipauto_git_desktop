@@ -3363,7 +3363,7 @@ align-items: center;
 .lp-ontour .header-logo p { padding: 0; border: 0; margin: 0 0 -13px;  }
 
 .lp-ontour .header-logo a,
-.lp-ontour .header-logo img { display: block; width: 500px; margin-top: 0px; }
+.lp-ontour .header-logo img { display: block; width: 525px; margin-top: 0; height: 200px; }
 
 
 .lp-ontour .main-navigation:first-of-type:before { content: ''; width: 100vw; min-width: 1280px; opacity: .4; position: absolute; top: 0; bottom: 0; left: 50%; z-index: 1; background-color: #481C7B; 
@@ -3427,6 +3427,10 @@ padding-bottom: 80px; }
 
 .header-ctas a:hover svg  { -webkit-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1); }
 
+
+
+
+
 @media ( max-width: 1280px ) {
 	.header-ctas {  position: absolute; top: 48px; left: 52%; margin-left: 220px; }
 	.header-ctas a svg  { 	-webkit-transform: scale(0.95); 	-ms-transform: scale(0.95); 	transform: scale(0.95); }
@@ -3439,6 +3443,9 @@ padding-bottom: 80px; }
 .is-stuck .header-ctas {  -webkit-box-orient: vertical;  -webkit-box-direction: normal;  -ms-flex-direction: column;  flex-direction: column; top: 80px; left: 92%; margin-left: auto; margin-right: -25px; }
 .is-stuck .header-ctas a + a { margin-left: 0; margin-top: -20px; }
 
+
+
+
 @media ( max-width: 1400px ) {
 .is-stuck .header-ctas {  -webkit-box-orient: vertical;  -webkit-box-direction: normal;  -ms-flex-direction: column;  flex-direction: column; top: 80px; left: 91%; margin-left: auto; margin-right: -20px; }
 .is-stuck .header-ctas a + a { margin-left: 0; margin-top: -40px; }
@@ -3446,12 +3453,41 @@ padding-bottom: 80px; }
 }
 
 
+
+
 .exposez .header-ctas {  position: absolute; top: 48px; left: 52%; margin-left: 320px; }
 .exposez .is-stuck .header-ctas {  top: 160px; left: 92%; margin-left: auto; margin-right: -25px; }
-
 
 
 body.lp-ontour .breadcrumb-nav .bn-item:first-child, body.lp-ontour .breadcrumb-nav .bn-item:nth-child(2) {display: none; }
 body.lp-ontour .breadcrumb-nav .bn-item:first-child, body.lp-ontour .breadcrumb-nav .bn-item:nth-child(3)::before {display: none; }
 body.lp-ontour .main-navigation:first-of-type { display: none; }
 body.lp-ontour .breadcrumb-nav { margin-top: -40px; }
+ 
+
+
+
+/*
+
+.site-footer .block-logos .col {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 80px;
+    padding: 0 30px;
+}
+.col.col-size4 {
+    left: 175px;
+}
+
+.lp-ontour div#zone4 {
+    padding-top: 20px;
+}
+
+.block block-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}*/
